@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+}
+/*personal details css starts*/
+header{
+    background-color: #7600bc;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    padding: 30px 30px 30px 30px;
+    /*      top right bottom left*/
+    height: 100px;
+}
+.contant-details img{
+    width: 30px;
+}
+p{
+    display: inline;
+}
+.topmenu{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+nav{
+    margin-top: 30px;
+    margin-left: 500px;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+/*personal details css ends*/
+/*hero section css starts*/
+#about-me {
+    display: flex;;
+}
+.gif_image {
+    margin: 20px 0px 0px 20px;
+    width: 550px;
+}
+.intro{
+    display: flex;
+}
+.intro h1{
+    font-family: sans-serif;
+    font-size: 60px;
+    color:#7600bc;
+}
+.intro img{
+    width: 50px;
+}
+.bio-details{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+.bio{
+    padding: 50px;
+}
+/*hero section css ends*/
+/*Skills css starts*/
+.skill-box{
+    height: 350px;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skill-box img{
+    width: 200px;
+}
+.skill-box h4{
+    font-size: 30px;
+}
+.skill-box p{
+    font-size: 24px;
+}
+.skills-container{
+    display: flex;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+#skills h1{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #7600bc;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+#skills{
+    margin: 50px 100px 50px 100px;
+}
+/*Skills css ends*/
+/*projects css starts*/
+#Projects{
+    margin: 50px 100px 50px 100px;
+}
+#Projects h1{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #7600bc;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+#Projects h2{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.para{
+    margin: 10px 100px 20px 0px;
+    font-size: 22px;
+    text-align: justify;
+}
+hr{
+   margin: 10px 200px 10px 200px;  
+}
+/*projects css ends*/
+/* recommendations css starts*/
+#recommendations{
+    margin: 50px 10px 50px 100px;
+}
+#recommendations h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #7600bc;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+.rec{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+}
+.recommendations-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#recommendations h3 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #7600bc;
+    font-style: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input,textarea{
+    width: 600px;
+    margin-bottom: 10px;
+}
+textarea{
+    height: 60px;
+}
+.submit{
+    margin-top: 22px;
+    width: 100px;
+    color: #7600bc;
+    text-align: center;
+}
+/* recommendations css ends*/
+/*footer section css starts*/
+footer{
+    font-size: 22px;
+    text-align: center;
+    margin: 20px;
+}
+/*footer section css ends*/
+/*btn section css starts*/
+.btn{
+    height: 55px;
+    width: 50px;
+    background-color: #7600bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 5px solid wheat;
+    box-shadow: 0px 0px 5px 1px gray;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.btn img{
+    width: 99%;
+}
+/*btn section css ends*/
